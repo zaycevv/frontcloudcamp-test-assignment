@@ -1,0 +1,34 @@
+@import "../variables";
+
+.button {
+  cursor: pointer;
+  border: none;
+  background-color: $primary500;
+  color: $white;
+  padding: $default-btnpadding;
+  border-radius: $default-btnbradius;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  transition: background-color 0.15s ease;
+  &:hover {
+    background-color: $primary600;
+  }
+  &:active {
+    background-color: $primary700;
+  }
+
+  &--outline {
+    background-color: $transparent;
+    border: solid 1px $primary500;
+    color: $primary500;
+    &:hover {
+      background-color: $transparent;
+      border: solid 1px $primary400;
+      color: $primary400;
+    }
+    &:active {
+      background-color: $transparent;
+    }
+  }
+}
