@@ -1,0 +1,68 @@
+@import "../variables";
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  outline: none;
+  font-family: "SB Sans Interface", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: $black;
+}
+
+span,
+p,
+b,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: $black;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 30px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+a {
+  color: #5558fa;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "SB Sans Interface";
+  src: url("//db.onlinewebfonts.com/t/37086b994764dba84b2ee0f1083bfeed.eot");
+  src: url("//db.onlinewebfonts.com/t/37086b994764dba84b2ee0f1083bfeed.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/37086b994764dba84b2ee0f1083bfeed.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/37086b994764dba84b2ee0f1083bfeed.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/37086b994764dba84b2ee0f1083bfeed.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/37086b994764dba84b2ee0f1083bfeed.svg#SB Sans Interface")
+      format("svg");
+}
