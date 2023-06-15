@@ -1,0 +1,10 @@
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  &__link {
+    color: #5558fa;
+    font-size: 12px;
+  }
+}
