@@ -1,0 +1,45 @@
+@import "../../styles/variables";
+
+.loginCard {
+  min-width: 900px;
+  min-height: 704px;
+  background-color: $white;
+  border-radius: $default-bradius;
+  margin-top: $default-padding;
+  padding: 25px 24px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: $default-padding;
+    padding-bottom: $default-padding;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    &__info {
+      &__contacts {
+        margin-top: 8px;
+        display: flex;
+        gap: 18px;
+      }
+    }
+  }
+  &__form {
+    padding-top: $default-padding;
+    max-width: 400px;
+
+    &__input {
+      margin-bottom: $default-padding;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      span {
+        margin-bottom: 8px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+    button {
+      margin-top: 40px;
+    }
+  }
+}
