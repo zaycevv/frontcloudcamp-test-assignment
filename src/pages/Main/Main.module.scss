@@ -1,11 +1,11 @@
 @import "../../styles/variables";
 
 .loginCard {
-  min-width: 900px;
+  margin: 24px auto;
+  max-width: 900px;
   min-height: 704px;
   background-color: $white;
   border-radius: $default-bradius;
-  margin-top: $default-padding;
   padding: 25px 24px;
 
   &__header {
@@ -25,21 +25,24 @@
   &__form {
     padding-top: $default-padding;
     max-width: 400px;
-
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     &__input {
-      margin-bottom: $default-padding;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
       display: flex;
       flex-direction: column;
       gap: 8px;
-      span {
-        margin-bottom: 8px;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
+      &__error {
+        color: #e05151;
       }
     }
-    button {
-      margin-top: 40px;
-    }
+  }
+  button {
+    justify-self: end;
+    align-self: self-start;
+    margin-top: 24px;
   }
 }
