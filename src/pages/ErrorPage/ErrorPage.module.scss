@@ -1,0 +1,28 @@
+@import "../../styles/variables";
+
+.createForm {
+  margin: 24px auto;
+  max-width: 900px;
+  background-color: $white;
+  border-radius: $default-bradius;
+  margin-top: $default-padding;
+  padding: 62px 110px;
+  &__buttons {
+    margin-top: 88px;
+    display: flex;
+    justify-content: space-between;
+  }
+  @media (max-width: 645px) {
+    padding: 30px 30px;
+  }
+  &__error {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    &__secret_image {
+      width: 300px;
+      height: 300px;
+    }
+  }
+}
