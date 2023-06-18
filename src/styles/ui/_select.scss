@@ -1,0 +1,55 @@
+@import "../variables";
+
+.select {
+  &__button {
+    width: 100%;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.48);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    img {
+      transition: all 0.15s ease-in-out;
+    }
+  }
+
+  .menu {
+    transition: all 0.15s ease-out;
+    position: absolute;
+    width: 300px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    gap: 16px;
+    padding: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    li {
+      cursor: pointer;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    &--hidden {
+      opacity: 0;
+      z-index: -10;
+    }
+  }
+
+  &--rotate {
+    .select__button {
+      img {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.stepsLine {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 66px;
+  &__step {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    &__count {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      &--active {
+        color: rgba(85, 88, 250, 1);
+      }
+    }
+  }
+}
+
+.line {
+  margin-top: 4px;
+  width: 100%;
+  height: 8px;
+  border-radius: 8px;
+  background: rgb(0, 0, 0, 0.08);
+  transform: scaleX(1.02);
+  &--active {
+    background: rgba(85, 88, 250, 1);
+  }
+}
+
+.circle {
+  z-index: 2;
+  color: #ffff;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  background: rgba(166, 166, 166, 1);
+  border-radius: 100px;
+  @include noselect();
+  &__status {
+    width: 3.2px;
+    height: 3.2px;
+    background: #ffffff;
+    border-radius: 100px;
+  }
+  &--active {
+    background: rgba(85, 88, 250, 1);
+  }
+}
