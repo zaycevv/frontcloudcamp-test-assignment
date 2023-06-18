@@ -78,11 +78,11 @@ export const FormThirdStep: React.FC = () => {
         checkbox: checkbox,
         about: localStorage.getItem("about"),
       })
-      .then(function (response) {
+      .then(function () {
         localStorage.clear();
         dispatch(clearAdvantages());
       })
-      .catch(function (error) {
+      .catch(function () {
         setIsError(true);
       });
 

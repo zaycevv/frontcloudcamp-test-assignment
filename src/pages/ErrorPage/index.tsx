@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ErrorPage.module.scss";
 
-export const ErrorPage = () => {
+export const ErrorPage: React.FC = () => {
   return (
     <div className={styles.createForm}>
       <div className={styles.createForm__error}>
