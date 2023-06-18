@@ -44,7 +44,6 @@ export const FormSecondStep = () => {
   };
 
   const onSubmit: SubmitHandler<IFormInput> = (data) => {
-    console.log(data);
     localStorage.setItem("advantages", JSON.stringify(advantages));
     localStorage.setItem("checkbox", JSON.stringify(data.checkbox));
     localStorage.setItem("radio", data.radio);

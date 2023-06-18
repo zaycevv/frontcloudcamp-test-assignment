@@ -58,7 +58,6 @@ export const Main = () => {
   });
 
   const onSubmit: SubmitHandler<IFormInput> = (data) => {
-    console.log(data);
     localStorage.setItem("phone", data.phone);
     localStorage.setItem("email", data.email);
     navigate("/create");

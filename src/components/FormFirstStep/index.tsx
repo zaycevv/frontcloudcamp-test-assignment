@@ -72,7 +72,6 @@ export const FormFirstStep = () => {
     localStorage.setItem("surname", data.surname);
     localStorage.setItem("sex", data.sex);
     localStorage.setItem("step", "2");
-    console.log(data);
     dispatch(setStep(2));
   };
 

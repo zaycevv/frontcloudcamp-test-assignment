@@ -56,7 +56,6 @@ export const FormThirdStep: React.FC = () => {
 
   const onSubmit: SubmitHandler<IFormInput> = async (data) => {
     localStorage.setItem("about", data.about);
-    console.log(data);
 
     const advantagesLocal = localStorage.getItem("advantages");
     const advantagesObjects =
