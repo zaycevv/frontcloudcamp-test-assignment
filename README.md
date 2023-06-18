@@ -4,8 +4,7 @@
 
 Результаты выполнения тестового задания следует код опубликовать на GitHub и захостить на любой открытой платформе (например, Github Pages) и отправить на почту frontcloudcamp@cloud.ru.
 
-### Технические требования:
-
+Технические требования:
 Для разработки приложения использовать [макет](https://www.figma.com/file/rzIp6awR6dGFVrcxcCEwzD/Untitled?type=design&node-id=0-1&t=90NCIZwzg7SIsdMb-0)
 
 В рамках дизайна формы реализовано 3 отдельных таба(шага) формы, которые можно переключать между собой. При переходе от таба к табу (в том числе возвращаясь на предыдущий) информация должна сохранятся.
@@ -20,8 +19,7 @@
 
 Адаптивная версия обязательна, способ реализации по твоему выбору
 
-### Валидация и описание полей
-
+Валидация и описание полей:
 - nickname - строковое значение, максимальная длина 30 символов, могут быть просто буквы и цифры (спец символы запрещены)
 - name - строковое значение, максимальная длина 50 символов, только буквы
 - sername - строковое значение, максимальная длина 50 символов, только буквы
@@ -33,7 +31,7 @@
 - checkbox - массив number, в дизайне должна быть группа элементов CheckboxGroup
 - about - textarea блок максимальная длина 200 символов, в правом нижнем углу добавить счётчик символов без пробелов
 
-## Стек:
+## ⚙️ Стек:
 
 - React
 - Typescript
@@ -52,3 +50,16 @@
 2. Перейдите в директорию проекта `cd frontcloudcamp-test-assignment`
 3. Установите зависимости `pnpm install`
 4. Запустите локальную версию `pnpn run dev`
+
+## Скриншоты
+![Main](https://github.com/zaycevv/frontcloudcamp-test-assignment/assets/127613678/dc2edb4c-2f55-4354-9bd9-7a812d3dbc33)
+![Step1](https://github.com/zaycevv/frontcloudcamp-test-assignment/assets/127613678/49a13f88-a753-4e3e-a5ac-7a80c10a3ae5)
+![Step2](https://github.com/zaycevv/frontcloudcamp-test-assignment/assets/127613678/95dfa99a-3921-43f8-8588-bbcc17d5b308)
+![Step3](https://github.com/zaycevv/frontcloudcamp-test-assignment/assets/127613678/4a29b433-d59e-4ebd-83f7-07bff43423b9)
+![Success](https://github.com/zaycevv/frontcloudcamp-test-assignment/assets/127613678/9941f8d2-3f98-4721-bca0-daac47cc8da6)
+
+
+
+
+
+
