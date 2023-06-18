@@ -1,5 +1,7 @@
 # Тестовое задание для поступления в FrontCloudCamp
 
+Попробовать тут: https://frontcloudcamp-test-assignment.vercel.app/
+
 Результаты выполнения тестового задания следует код опубликовать на GitHub и захостить на любой открытой платформе (например, Github Pages) и отправить на почту frontcloudcamp@cloud.ru.
 
 ### Технические требования:
@@ -18,7 +20,7 @@
 
 Адаптивная версия обязательна, способ реализации по твоему выбору
 
-#### Валидация и описание полей
+### Валидация и описание полей
 
 - nickname - строковое значение, максимальная длина 30 символов, могут быть просто буквы и цифры (спец символы запрещены)
 - name - строковое значение, максимальная длина 50 символов, только буквы
@@ -31,11 +33,22 @@
 - checkbox - массив number, в дизайне должна быть группа элементов CheckboxGroup
 - about - textarea блок максимальная длина 200 символов, в правом нижнем углу добавить счётчик символов без пробелов
 
-### Стек:
+## Стек:
 
 - React
 - Typescript
 - Redux-Toolkit
+- Vite, Eslint
 - SCSS
-- React-hook-form
 - Yup
+- Axios
+- React-router-dom
+- React-hook-form
+- React-input-mask
+
+## Установка
+
+1. Склонируйте репозиторий `git clone https://github.com/zaycevv/frontcloudcamp-test-assignment`
+2. Перейдите в директорию проекта `cd frontcloudcamp-test-assignment`
+3. Установите зависимости `pnpm install`
+4. Запустите локальную версию `pnpn run dev`
