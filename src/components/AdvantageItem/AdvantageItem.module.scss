@@ -1,0 +1,21 @@
+.advantage {
+  display: flex;
+  align-items: center;
+  gap: 18.5px;
+  svg {
+    cursor: pointer;
+    path {
+      transition: fill 0.15s ease-out;
+    }
+    &:hover {
+      path {
+        fill: #ff0000;
+      }
+    }
+  }
+  div,
+  input {
+    min-height: 46px;
+    max-width: 297.5px;
+  }
+}
