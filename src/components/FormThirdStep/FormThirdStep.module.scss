@@ -1,0 +1,32 @@
+@import "../../styles/variables";
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    textarea {
+      max-width: 680px;
+      min-width: 680px;
+      min-height: 84px;
+      @media (max-width: 645px) {
+        min-width: 354px;
+      }
+    }
+    &__error {
+      color: #e05151;
+    }
+  }
+}
+.buttons {
+  margin-top: 88px;
+  display: flex;
+  justify-content: space-between;
+}

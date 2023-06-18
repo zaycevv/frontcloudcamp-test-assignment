@@ -1,0 +1,25 @@
+@import "../../styles/variables";
+
+.forms {
+  max-width: 300px;
+  &__input {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+    &__error {
+      color: #e05151;
+    }
+  }
+  @media (max-width: 645px) {
+    max-width: 100%;
+  }
+}
+.buttons {
+  margin-top: 88px;
+  display: flex;
+  justify-content: space-between;
+}
